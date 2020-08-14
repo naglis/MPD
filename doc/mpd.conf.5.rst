@@ -29,7 +29,7 @@ See ``docs/mpdconf.example`` in the source tarball for an example configuration 
 
 This manual is not complete, it lists only the most important options.
 Please read the MPD user manual for a complete configuration guide:
-``<http://www.musicpd.org/doc/user/>``
+``<https://www.musicpd.org/doc/user/>``
 
 
 REQUIRED PARAMETERS

@@ -14,7 +14,7 @@ MPD is a daemon for playing music. Music is played through the configured audio 
 
 MPD searches for a config file in ``$XDG_CONFIG_HOME/mpd/mpd.conf`` then ``~/.mpdconf`` then ``/etc/mpd.conf`` or uses CONF_FILE.
 
-Read more about MPD at ``<http://www.musicpd.org/>``.
+Read more about MPD at ``<https://www.musicpd.org/>``.
 
 OPTIONS
 -------

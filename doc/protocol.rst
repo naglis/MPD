@@ -288,7 +288,7 @@ The following tags are supported by :program:`MPD`:
   which can be expressed in the form of one or more audio recordings" <https://musicbrainz.org/doc/Work>`_
 * **grouping**: "used if the sound belongs to a larger category of
   sounds/music" (`from the IDv2.4.0 TIT1 description
-  <http://id3.org/id3v2.4.0-frames>`_).
+  <https://id3.org/id3v2.4.0-frames>`_).
 * **comment**: a human-readable comment about this song. The exact meaning of this tag is not well-defined.
 * **disc**: the decimal disc number in a multi-disc album.
 * **label**: the name of the label or publisher.
@@ -501,7 +501,7 @@ Playback options
     Sets crossfading between songs.
 
 :command:`mixrampdb {deciBels}`
-    Sets the threshold at which songs will be overlapped. Like crossfading but doesn't fade the track volume, just overlaps. The songs need to have MixRamp tags added by an external tool. 0dB is the normalized maximum volume so use negative values, I prefer -17dB. In the absence of mixramp tags crossfading will be used. See http://sourceforge.net/projects/mixramp
+    Sets the threshold at which songs will be overlapped. Like crossfading but doesn't fade the track volume, just overlaps. The songs need to have MixRamp tags added by an external tool. 0dB is the normalized maximum volume so use negative values, I prefer -17dB. In the absence of mixramp tags crossfading will be used. See https://sourceforge.net/projects/mixramp
 
 :command:`mixrampdelay {SECONDS}`
     Additional time subtracted from the overlap calculated by mixrampdb. A value of "nan" disables MixRamp overlapping and falls back to crossfading.

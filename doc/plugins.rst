@@ -202,9 +202,9 @@ will be in effect.
    * - **proxy_user, proxy_password**
      - Configures proxy authentication.
    * - **verify_peer yes|no**
-     - Verify the peer's SSL certificate? `More information <http://curl.haxx.se/libcurl/c/CURLOPT_SSL_VERIFYPEER.html>`_.
+     - Verify the peer's SSL certificate? `More information <https://curl.haxx.se/libcurl/c/CURLOPT_SSL_VERIFYPEER.html>`_.
    * - **verify_host yes|no**
-     - Verify the certificate's name against host? `More information <http://curl.haxx.se/libcurl/c/CURLOPT_SSL_VERIFYHOST.html>`_.
+     - Verify the certificate's name against host? `More information <https://curl.haxx.se/libcurl/c/CURLOPT_SSL_VERIFYHOST.html>`_.
 
 ffmpeg
 ------
@@ -294,7 +294,7 @@ tidal
 -----
 
 Play songs from the commercial streaming service `Tidal
-<http://tidal.com/>`_. It plays URLs in the form ``tidal://track/ID``,
+<https://tidal.com/>`_. It plays URLs in the form ``tidal://track/ID``,
 e.g.:
 
 .. warning::
@@ -428,7 +428,7 @@ hybrid_dsd
 ----------
 
 `Hybrid-DSD
-<http://dsdmaster.blogspot.de/p/bitperfect-introduces-hybrid-dsd-file.html>`_
+<https://dsdmaster.blogspot.de/p/bitperfect-introduces-hybrid-dsd-file.html>`_
 is an MP4 container file (:file:`*.m4a`) which contains both ALAC and
 DSD data. It is disabled by default, and works only if you explicitly
 enable it. Without this plugin, the ALAC parts gets handled by the
@@ -440,7 +440,7 @@ of the file is better.
 mad
 ---
 
-Decodes MP3 files using `libmad <http://www.underbit.com/products/mad/>`_.
+Decodes MP3 files using `libmad <https://www.underbit.com/products/mad/>`_.
 
 mikmod
 ------
@@ -475,19 +475,19 @@ Module player based on MODPlug.
 mpcdec
 ------
 
-Decodes Musepack files using `libmpcdec <http://www.musepack.net/>`_.
+Decodes Musepack files using `libmpcdec <https://www.musepack.net/>`_.
 
 mpg123
 ------
 
-Decodes MP3 files using `libmpg123 <http://www.mpg123.de/>`_. Currently, this
+Decodes MP3 files using `libmpg123 <https://www.mpg123.de/>`_. Currently, this
 decoder does not support streams (e.g. archived files, remote files over HTTP,
 ...), only regular local files.
 
 opus
 ----
 
-Decodes Opus files using `libopus <http://www.opus-codec.org/>`_.
+Decodes Opus files using `libopus <https://www.opus-codec.org/>`_.
 
 pcm
 ---
@@ -506,7 +506,7 @@ C64 SID decoder based on `libsidplayfp <https://sourceforge.net/projects/sidplay
    * - Setting
      - Description
    * - **songlength_database PATH**
-     - Location of your songlengths file, as distributed with the HVSC. The sidplay plugin checks this for matching MD5 fingerprints. See http://www.hvsc.c64.org/download/C64Music/DOCUMENTS/Songlengths.faq. New songlength format support requires libsidplayfp 2.0 or later.
+     - Location of your songlengths file, as distributed with the HVSC. The sidplay plugin checks this for matching MD5 fingerprints. See https://www.hvsc.c64.org/download/C64Music/DOCUMENTS/Songlengths.faq. New songlength format support requires libsidplayfp 2.0 or later.
    * - **default_songlength SECONDS**
      - This is the default playing time in seconds for songs not in the songlength database, or in case you're not using a database. A value of 0 means play indefinitely.
    * - **default_genre GENRE**
@@ -527,7 +527,7 @@ Decodes WAV and AIFF files using `libsndfile <http://www.mega-nerd.com/libsndfil
 vorbis
 ------
 
-Decodes Ogg-Vorbis files using `libvorbis <http://www.xiph.org/ogg/vorbis/>`_.
+Decodes Ogg-Vorbis files using `libvorbis <https://www.xiph.org/vorbis/>`_.
 
 wavpack
 -------
@@ -537,7 +537,7 @@ Decodes WavPack files using `libwavpack <http://www.wavpack.com/>`_.
 wildmidi
 --------
 
-MIDI decoder based on `libwildmidi <http://www.mindwerks.net/projects/wildmidi/>`_.
+MIDI decoder based on `libwildmidi <https://www.mindwerks.net/projects/wildmidi/>`_.
 
 .. list-table::
    :widths: 20 80
@@ -570,7 +570,7 @@ Encodes into `FLAC <https://xiph.org/flac/>`_ (lossless).
 lame
 ----
 
-Encodes into MP3 using the `LAME <http://lame.sourceforge.net/>`_ library.
+Encodes into MP3 using the `LAME <https://lame.sourceforge.net/>`_ library.
 
 .. list-table::
    :widths: 20 80
@@ -605,7 +605,7 @@ Encodes into MP3 using the `Shine <https://github.com/savonet/shine>`_ library.
 twolame
 -------
 
-Encodes into MP2 using the `TwoLAME <http://www.twolame.org/>`_ library.
+Encodes into MP2 using the `TwoLAME <https://www.twolame.org/>`_ library.
 
 .. list-table::
    :widths: 20 80
@@ -621,7 +621,7 @@ Encodes into MP2 using the `TwoLAME <http://www.twolame.org/>`_ library.
 opus
 ----
 
-Encodes into `Ogg Opus <http://www.opus-codec.org/>`_.
+Encodes into `Ogg Opus <https://www.opus-codec.org/>`_.
 
 .. list-table::
    :widths: 20 80
@@ -643,7 +643,7 @@ Encodes into `Ogg Opus <http://www.opus-codec.org/>`_.
 vorbis
 ------
 
-Encodes into `Ogg Vorbis <http://www.vorbis.com/>`_.
+Encodes into `Ogg Vorbis <https://www.xiph.org/vorbis/>`_.
 
 .. list-table::
    :widths: 20 80
@@ -726,7 +726,7 @@ The following converter types are provided by libsamplerate:
 soxr
 ----
 
-A resampler using `libsoxr <http://sourceforge.net/projects/soxr/>`_, the SoX Resampler library
+A resampler using `libsoxr <https://sourceforge.net/projects/soxr/>`_, the SoX Resampler library
 
 .. list-table::
    :widths: 20 80
@@ -757,7 +757,7 @@ Output plugins
 alsa
 ----
 
-The `Advanced Linux Sound Architecture (ALSA) <http://www.alsa-project.org/>`_ plugin uses libasound. It is recommended if you are using Linux.
+The `Advanced Linux Sound Architecture (ALSA) <https://www.alsa-project.org/>`_ plugin uses libasound. It is recommended if you are using Linux.
 
 .. list-table::
    :widths: 20 80
@@ -778,7 +778,7 @@ The `Advanced Linux Sound Architecture (ALSA) <http://www.alsa-project.org/>`_ p
    * - **auto_format yes|no**
      - If set to no, then libasound will not attempt to convert between different sample formats (16 bit, 24 bit, floating point, ...).
    * - **dop yes|no**
-     - If set to yes, then DSD over PCM according to the `DoP standard <http://dsd-guide.com/dop-open-standard>`_ is enabled. This wraps DSD samples in fake 24 bit PCM, and is understood by some DSD capable products, but may be harmful to other hardware. Therefore, the default is no and you can enable the option at your own risk.
+     - If set to yes, then DSD over PCM according to the `DoP standard <https://dsd-guide.com/dop-open-standard>`_ is enabled. This wraps DSD samples in fake 24 bit PCM, and is understood by some DSD capable products, but may be harmful to other hardware. Therefore, the default is no and you can enable the option at your own risk.
    * - **allowed_formats F1 F2 ...**
      - Specifies a list of allowed audio formats, separated by a space. All items may contain asterisks as a wild card, and may be followed by "=dop" to enable DoP (DSD over PCM) for this particular format. The first matching format is used, and if none matches, MPD chooses the best fallback of this list.
        
@@ -824,7 +824,7 @@ The ao plugin uses the portable `libao <https://www.xiph.org/ao/>`_ library. Use
    * - Setting
      - Description
    * - **driver D**
-     - The libao driver to use for audio output. Possible values depend on what libao drivers are available. See http://www.xiph.org/ao/doc/drivers.html for information on some commonly used drivers. Typical values for Linux include "oss" and "alsa09". The default is "default", which causes libao to select an appropriate plugin.
+     - The libao driver to use for audio output. Possible values depend on what libao drivers are available. See https://www.xiph.org/ao/doc/drivers.html for information on some commonly used drivers. Typical values for Linux include "oss" and "alsa09". The default is "default", which causes libao to select an appropriate plugin.
    * - **options O**
      - Options to pass to the selected libao driver.
    * - **write_size O**
@@ -872,7 +872,7 @@ removed soon, unless there is a new maintainer.
 jack
 ----
 
-The jack plugin connects to a `JACK server <http://jackaudio.org/>`_.
+The jack plugin connects to a `JACK server <https://jackaudio.org/>`_.
 
 .. list-table::
    :widths: 20 80
@@ -900,7 +900,7 @@ The jack plugin connects to a `JACK server <http://jackaudio.org/>`_.
 httpd
 -----
 
-The httpd plugin creates a HTTP server, similar to `ShoutCast <http://www.shoutcast.com/>`_ / `IceCast <http://icecast.org/>`_. HTTP streaming clients like mplayer, VLC, and mpv can connect to it.
+The httpd plugin creates a HTTP server, similar to `ShoutCast <https://www.shoutcast.com/>`_ / `IceCast <https://icecast.org/>`_. HTTP streaming clients like mplayer, VLC, and mpv can connect to it.
 
 It is highly recommended to configure a fixed format, because a stream cannot switch its audio format on-the-fly when the song changes.
 
@@ -966,7 +966,7 @@ The according hardware mixer plugin understands the following settings:
 
 openal
 ------
-The "OpenAL" plugin uses `libopenal <http://kcat.strangesoft.net/openal.html>`_. It is supported on many platforms. Use only if there is no native plugin for your operating system.
+The "OpenAL" plugin uses `libopenal <https://kcat.strangesoft.net/openal.html>`_. It is supported on many platforms. Use only if there is no native plugin for your operating system.
 
 .. list-table::
    :widths: 20 80
@@ -992,7 +992,7 @@ The "Mac OS X" plugin uses Apple's CoreAudio API.
    * - **hog_device yes|no**
      - Hog the device. This means that it takes exclusive control of the audio output device it is playing through, and no other program can access it.
    * - **dop yes|no**
-     - If set to yes, then DSD over PCM according to the `DoP standard <http://dsd-guide.com/dop-open-standard>`_ is enabled. This wraps DSD samples in fake 24 bit PCM, and is understood by some DSD capable products, but may be harmful to other hardware. Therefore, the default is no and you can enable the option at your own risk. Under macOS you must make sure to select a physical mode on the output device which supports at least 24 bits per channel as the Mac OS X plugin only changes the sample rate.
+     - If set to yes, then DSD over PCM according to the `DoP standard <https://dsd-guide.com/dop-open-standard>`_ is enabled. This wraps DSD samples in fake 24 bit PCM, and is understood by some DSD capable products, but may be harmful to other hardware. Therefore, the default is no and you can enable the option at your own risk. Under macOS you must make sure to select a physical mode on the output device which supports at least 24 bits per channel as the Mac OS X plugin only changes the sample rate.
    * - **channel_map SOURCE,SOURCE,...**
      - Specifies a channel map. If your audio device has more than two outputs this allows you to route audio to auxillary outputs. For predictable results you should also specify a "format" with a fixed number of channels, e.g. "*:*:2". The number of items in the channel map must match the number of output channels of your output device. Each list entry specifies the source for that output channel; use "-1" to silence an output. For example, if you have a four-channel output device and you wish to send stereo sound (format "*:*:2") to outputs 3 and 4 while leaving outputs 1 and 2 silent then set the channel map to "-1,-1,0,1". In this example '0' and '1' denote the left and right channel respectively.
 
@@ -1016,7 +1016,7 @@ The pipe plugin starts a program and writes raw PCM data into its standard input
 
 pulse
 -----
-The pulse plugin connects to a `PulseAudio <http://www.freedesktop.org/wiki/Software/PulseAudio/>`_ server. Requires libpulse.
+The pulse plugin connects to a `PulseAudio <https://www.freedesktop.org/wiki/Software/PulseAudio/>`_ server. Requires libpulse.
 
 .. list-table::
    :widths: 20 80
@@ -1064,7 +1064,7 @@ You must set a format.
    * - Setting
      - Description
    * - **host HOSTNAME**
-     - Sets the host name of the `ShoutCast <http://www.shoutcast.com/>`_ / `IceCast <http://icecast.org/>`_ server.
+     - Sets the host name of the `ShoutCast <https://www.shoutcast.com/>`_ / `IceCast <https://icecast.org/>`_ server.
    * - **port PORTNUMBER**
      - Connect to this port number on the specified host.
    * - **timeout SECONDS**

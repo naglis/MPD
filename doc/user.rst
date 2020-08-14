@@ -54,7 +54,7 @@ Download the source tarball from the `MPD home page <https://musicpd.org>`_ and 
 In any case, you need:
 
 * a C++14 compiler (e.g. GCC 8 or clang 5)
-* `Meson 0.49.0 <http://mesonbuild.com/>`__ and `Ninja
+* `Meson 0.49.0 <https://mesonbuild.com/>`__ and `Ninja
   <https://ninja-build.org/>`__
 * Boost 1.58
 * pkg-config 
@@ -725,7 +725,7 @@ Do not change these unless you know what you are doing.
 Zeroconf
 ^^^^^^^^
 
-If Zeroconf support (`Avahi <http://avahi.org/>`_ or Apple's Bonjour)
+If Zeroconf support (`Avahi <https://avahi.org/>`_ or Apple's Bonjour)
 was enabled at compile time with :code:`-Dzeroconf=...`,
 :program:`MPD` can announce its presence on the network. The following
 settings control this feature:
@@ -909,7 +909,7 @@ After you have installed, configured and started :program:`MPD`, you choose a cl
 
 The most basic client is :program:`mpc`, which provides a command line interface. It is useful in shell scripts. Many people bind specific :program:`mpc` commands to hotkeys.
 
-The `MPD Wiki <http://www.musicpd.org/clients/>`_ contains an extensive list of clients to choose from.
+The `MPD Wiki <https://www.musicpd.org/clients/>`_ contains an extensive list of clients to choose from.
 
 The music directory and the database
 ------------------------------------
@@ -1046,7 +1046,7 @@ ICY-MetaData
 
 Some MP3 streams send information about the current song with a
 protocol named `"ICY-MetaData"
-<http://www.smackfu.com/stuff/programming/shoutcast.html>`_.
+<https://www.smackfu.com/stuff/programming/shoutcast.html>`_.
 :program:`MPD` makes its ``StreamTitle`` value available as ``Title``
 tag.
 
